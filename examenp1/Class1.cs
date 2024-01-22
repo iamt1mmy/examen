@@ -65,7 +65,7 @@ class Program
         }
         Person ceaMaiInVarsta = PersonProcessor.GetOldestPerson(persoane);
 
-        Console.WriteLine($"\nPersoana cu cea mai mare varsta este:");
+        Console.WriteLine($"\nPersoana cea mai varstnica este:");
         Console.WriteLine($"Prenume: {ceaMaiInVarsta.FirstName}");
         Console.WriteLine($"Nume de familie: {ceaMaiInVarsta.LastName}");
         Console.WriteLine($"Anul nasterii: {ceaMaiInVarsta.YearOfBirth}");
